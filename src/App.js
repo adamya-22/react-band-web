@@ -8,7 +8,7 @@ import About from './components/About'
 import Episodes from './components/Episodes'
 import Blog from './components/Blog'
 import Contact from './components/Contact'
-// import Error404 from './components/Error404'
+import Error404 from './components/Error404'
 import Footer from './components/Footer'
 
 const App = () => {
@@ -21,7 +21,7 @@ const App = () => {
         <Route path='/episodes' element={<Episodes/>}/>
         <Route path='/blog' element={<Blog/>}/>
         <Route path='/contact' element={<Contact/>}/>
-        {/* <Route path='*' element={<Error404/>}/> */}
+        <Route path='*' element={<Error404/>}/>
       </Routes>
       <Footer/>
       </>
