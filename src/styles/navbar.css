@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* body {
+    margin: 0px;
+    font-family: 'segoe ui';
+  } */
+  .nav-heading{
+    font-size: 3rem;
+    font-weight: 700;
+    /* position: absolute;
+    top: 330px;
+    left: 120px; */
+  }
+  .nav {
+    /* height: 50px; */
+    padding: 1.5rem 0.5rem;
+    width: 100%;
+    /* background-color: #4d4d4d; */
+    position: relative;
+    /* background-color: #FFE2C1; */
+    background-color: #aa2bf9ab;
+
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    padding: 0 10px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: rgb(255 51 51 / 30%);
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:800px){
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #333;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 60px;
+      left: 0px;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      background: -webkit-linear-gradient(#cb78f6, #ffc1c1);
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+      z-index: 1;
+    }
+  }
+
+
+   /*  */
+   .nav-he-con{
+    background-color: black;
+    border-radius: 5px;
+    color: beige;
+    position: absolute;
+    top: 360px;
+    left: 96px;
+    padding: 2px 20px;
+  }
+
+  .logo{
+    /* position: absolute; */
+    height: 33px;
+  }
+
+ .active{
+  /* font-weight: bold; */
+ }

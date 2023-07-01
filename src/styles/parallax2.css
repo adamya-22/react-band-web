@@ -1,0 +1,64 @@
+
+.wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 300px;
+}
+
+.parallax__group {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  transform-style: preserve-3d;
+}
+
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* .sky {
+  background: url('../pxfuel.jpg') no-repeat center;
+  background-size: cover;
+  transform: translateZ(-600px) scale(3);
+  z-index: 4;
+} */
+
+.bushes {
+  background: url('../assets/p14_2.webp') no-repeat center;
+  background-size: cover;
+  transform: translateZ(-525px) scale(2.75);
+  z-index: 2;
+}
+
+.water {
+  background: url('../assets/p12.webp') no-repeat center;
+  background-size: cover;
+  transform: translateZ(-400px) scale(2.33333333);
+  z-index: 3;
+}
+
+.people1 {
+  background: url('../assets/p11.webp') no-repeat center;
+  background-size: cover;
+  transform: translateZ(-250px) scale(1.833333333);
+  z-index: 4;
+}
+
+
+
+@media (min-width: 1126px) {
+  .sky,
+  .bushes,
+  .water,
+  .people1,
+  .people2,
+  .people3,
+  .hero-text {
+    background-size: contain;
+  }
+}

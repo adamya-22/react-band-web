@@ -1,0 +1,225 @@
+.about-body{
+    --black: #130f40;
+    --light-color: #666;
+    --box-shadow: 0.5rem 0.5rem 0.5rem rgba(98, 16, 213, 0.459);
+    --border: 0.2rem solid rgb(0, 0, 0);
+    --outline: 0.1.5rem solid rgba(0, 0, 0, 0.994);
+    --outline-hover: 0.2rem solid var(--black);
+    transition: all 0.2s linear;
+    background: -webkit-linear-gradient(#EBD0F1, #FFE2C1);
+    padding: 50px 20px;
+  }
+  
+  .history-box {
+    background-image: url('../assets/moving.gif');
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+  }
+  
+  .history-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+  }
+  
+  .history-content p {
+    margin-bottom: 20px;
+  }
+  
+  .milestone {
+    background-image: url('../assets/middleBg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .timeline {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .event {
+    flex-basis: 30%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  .event h3 {
+    margin-bottom: 10px;
+  }
+  
+  .event p {
+    margin-bottom: 20px;
+  }
+  
+  .team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    grid-gap: 20px;
+  }
+  
+  .team-member {
+    display: flex;
+    align-items: center;
+    width: 470px;
+    height: 300px;
+    border: 1px solid #000;
+    padding: 20px;
+  }
+  
+  .team-member:hover {
+    background-color: #f2f2f2;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+  }
+  
+  .team-member img {
+    width: 150px;
+    margin-right: 20px;
+  }
+  
+  .member-info h3 {
+    margin-bottom: 10px;
+  }
+  
+  .member-info p {
+    /* margin-bottom: 10px; */
+    font-size: 13px;
+  }
+  
+  .about-container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 150px;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .team-member img:hover {
+    transform: scale(1.1);
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .section-heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    /* margin-top: 50px; */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: color 0.3s ease;
+  }
+  
+  .section-heading:hover {
+    color: #601a3e;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .heading {
+    text-align: center;
+  }
+  
+  .milestone .milestone-slider {
+    padding: 1rem;
+  }
+  
+  .milestone .milestone-slider .box {
+    background: #fff;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    outline-offset: -1rem;
+    outline: var(--outline);
+    box-shadow: var(--box-shadow);
+    transition: 0.2s linear;
+  }
+  
+  .milestone .milestone-slider .box:hover {
+    outline: var(--outline-hover);
+    outline-offset: 0rem;
+  }
+  
+  .milestone .milestone-slider .box img {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+  }
+  
+  .milestone .milestone-slider .box p {
+    padding: 1rem 0;
+    line-height: 1.8;
+    color: var(--light-color);
+    font-size: 1.5rem;
+  }
+  
+  .milestone .milestone-slider .box h3 {
+    padding-bottom: 0.5rem;
+    color: var(--black);
+    font-size: 1.3rem;
+  }
+
+  .milestone {
+    background-color: #f8e0c5;
+  }
+  
+  .team .team-grid .team-member {
+    background-color: #eee;
+  }
+
+  .ab-box{
+    position: relative;
+    width: 400px;
+    height: 240px;
+    margin: 20px 20px 0 0;
+    float: left;
+    overflow: hidden;
+  }
+
+  @media (max-width: 768px) {
+    .team-grid {
+      /* grid-template-columns: 1fr; */
+      justify-content: center;
+
+    }
+    
+    .team-member {
+        display: flex;
+    flex-direction: column;
+      width: 100%;
+      height: fit-content;
+
+    }
+    
+    .section-heading {
+      font-size: 36px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .milestone .milestone-slider .box {
+      padding: 2rem 1rem;
+    }
+    
+    .milestone .milestone-slider .box img {
+      height: 8rem;
+      width: 8rem;
+    }
+  }
