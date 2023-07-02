@@ -45,7 +45,7 @@ const Footer = () => {
   </div>
 </footer>
 <div class="foo-bel">
-  <p>Copyrights&copy;</p>
+  <p>Published by WictroniX&copy;</p>
 </div>
     </>
   )
