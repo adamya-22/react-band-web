@@ -88,7 +88,20 @@
     float: left;
     overflow: hidden;
     /* background: #f2f4f6; */
+    animation: forslider 30s infinite;
   }
+  @keyframes forslider {
+    0%,
+    100% {
+      left: -1800px;
+    }
+  
+    50% {
+      left: 0px;
+    }
+  }
+
+
   .box:first-child {
     margin-left: 20px;
   }

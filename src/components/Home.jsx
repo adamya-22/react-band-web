@@ -37,7 +37,7 @@ const Home = () => {
       {/* </div> */}
      
 
-    {/* slider 2 */}
+    {/* slider 1 */}
     <div className="nav-he-con"><h1 className="nav-heading" id="nav01">Listen To Our Greatest Hits</h1></div>
     {/* <img src={star} alt="" className="rotate"/> */}
     <div className="ext">
