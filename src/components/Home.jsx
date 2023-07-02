@@ -190,7 +190,7 @@ const Home = () => {
                   <h5>Los Angeles</h5>
                   <img src="https://i.pinimg.com/236x/49/43/8f/49438fa999b98d2c49074963db3c71fa.jpg" alt="" className="s12-1-r-d"/>
                 </div>
-                <img src="plane.png" alt="" className="plane"/>
+                <img src={plane} alt="" className="plane"/>
             </div>
           </div>        
         </div>
@@ -208,7 +208,7 @@ const Home = () => {
                   <h5>Phoenix</h5>
                   <img src="https://i.pinimg.com/236x/0e/9b/1e/0e9b1ecf15f689c76b72742609f78170.jpg" alt="" className="s12-1-r-d"/>
                 </div>
-                <img src="plane.png" alt="" className="plane"/>
+                <img src={plane} alt="" className="plane"/>
             </div>
           </div>        
         </div>
@@ -226,7 +226,7 @@ const Home = () => {
                   <h5>San Francisco</h5>
                   <img src="https://i.pinimg.com/236x/4c/8e/24/4c8e24335f110f6abdf3f938ffabc0d0.jpg" alt="" className="s12-1-r-d"/>
                 </div>
-                <img src="plane.png" alt="" className="plane"/>
+                <img src={plane} alt="" className="plane"/>
             </div>
           </div>        
         </div>
@@ -244,7 +244,7 @@ const Home = () => {
                   <h5>San Francisco</h5>
                   <img src="https://i.pinimg.com/236x/4c/8e/24/4c8e24335f110f6abdf3f938ffabc0d0.jpg" alt="" className="s12-1-r-d"/>
                 </div>
-                <img src="plane.png" alt="" classNameName="plane"/>
+                <img src={plane} alt="" classNameName="plane"/>
             </div>
           </div>        
         </div>
