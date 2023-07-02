@@ -244,7 +244,7 @@ const Home = () => {
                   <h5>San Francisco</h5>
                   <img src="https://i.pinimg.com/236x/4c/8e/24/4c8e24335f110f6abdf3f938ffabc0d0.jpg" alt="" className="s12-1-r-d"/>
                 </div>
-                <img src={plane} alt="" classNameName="plane"/>
+                {/* <img src={plane} alt="" classNameName="plane"/> */}
             </div>
           </div>        
         </div>
