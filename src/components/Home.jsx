@@ -9,7 +9,7 @@ import '../styles/style.css'
 import '../additional/slider'
 
 // importing images
-import star from '../assets/star.png'
+// import star from '../assets/star.png'
 import plane from '../assets/plane.webp'
 
 const Home = () => {
@@ -39,7 +39,7 @@ const Home = () => {
 
     {/* slider 2 */}
     <div className="nav-he-con"><h1 className="nav-heading" id="nav01">Listen To Our Greatest Hits</h1></div>
-    <img src={star} alt="" className="rotate"/>
+    {/* <img src={star} alt="" className="rotate"/> */}
     <div className="ext">
     <div className="external">
       <div className="horizontal-scroll-wrapper">
