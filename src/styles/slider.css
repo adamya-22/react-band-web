@@ -272,3 +272,24 @@
   .sl-img-cap{
     font-weight: 700;
   }
+
+  /* Add these CSS rules */
+.horizontal-scroll-wrapper {
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+/* .slider {
+  display: flex;
+} */
+
+.img-wrapper {
+  flex-shrink: 0;
+  width: 100%;
+  padding: 0 10px;
+}
+
+/* Hide scrollbar */
+.horizontal-scroll-wrapper::-webkit-scrollbar {
+  display: none;
+}
