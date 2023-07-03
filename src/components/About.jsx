@@ -1,4 +1,5 @@
 import React from 'react'
+// import '../additional/about'
 import '../styles/about.css'
 import member1 from '../assets/Member1.jpg'
 import member2 from '../assets/member2.jpg'
@@ -90,7 +91,7 @@ const About = () => {
           </section>
 
           <br/><br/><br/>
-          {/* <section class="milestone">
+          <section class="milestone">
 
             <h1 class="section-heading"> Our<span> Milestones</span> </h1>
         
@@ -123,7 +124,7 @@ const About = () => {
                     </div>
                   </div>
                 </div>
-        </section> */}
+        </section>
         </div>
     </>
   )
