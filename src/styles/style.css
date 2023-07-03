@@ -96,15 +96,17 @@ i{
  .lead-det{
   display: none !important;
  }
- .ball{
-  /* top: 2200px !important;
-    right: 0% !important; */
- }
 }
 
 @media (max-width: 375px) {
   .nav-heading{
     font-size: 20px !important;  
+  }
+}
+
+@media (min-width: 443px) {
+  .wrapper{
+    display: none;
   }
 }
 

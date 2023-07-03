@@ -99,6 +99,7 @@
   }
   
   .team-member img {
+    border-radius: 100px;
     width: 150px;
     margin-right: 20px;
     transition: transform 0.3s ease;
