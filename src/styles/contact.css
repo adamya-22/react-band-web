@@ -19,8 +19,17 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    flex-wrap: wrap;
 
+  }
+  @media (max-width: 700px) {
+    .content_contact{
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .contact-form{
+      width: 100% !important;
+      margin-left: 0 !important;
+    }
   }
 
   .contact-form {

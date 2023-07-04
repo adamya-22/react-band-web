@@ -145,7 +145,7 @@
   }
   
   .milestone .milestone-slider .ab-box {
-    height: fit-content;
+    /* height: fit-content; */
     background: #fff;
     border-radius: 0.5rem;
     text-align: center;
@@ -191,7 +191,7 @@
   .ab-box{
     position: relative;
     width: 400px;
-    height: 240px;
+    height: 275px;
     margin: 20px 20px 0 0;
     float: left;
     overflow: hidden;
@@ -221,6 +221,7 @@
     .milestone .milestone-slider .ab-box {
       width: 250px;
       padding: 2rem 1rem;
+      height: 340px;
     }
     
     .milestone .milestone-slider .ab-box img {

@@ -1,5 +1,9 @@
 import React from 'react'
 import '../styles/style.css'
+import footer1 from '../assets/footer_img1.jpg'
+import footer2 from '../assets/footer_img2.jpg'
+import footer3 from '../assets/footer_img3.jpg'
+import footer4 from '../assets/footer_img4.jpg'
 
 const Footer = () => {
   return (
@@ -34,12 +38,17 @@ const Footer = () => {
     <div class="foo-c4">
       <h2 class="foo-h2">LISTEN NOW</h2>
       <div class="foo-c4-links">
-        <a href="#" class="ava-l">APPLE PODCASTS</a>
+        {/* <a href="#" class="ava-l">APPLE PODCASTS</a>
         <span>
           <a href="#" class="ava-l">SPOTIFY</a>
           <a href="#" class="ava-l">STITCHER</a>
         </span>
-        <a href="#" class="ava-l">GOOGLE PODCAST</a>
+        <a href="#" class="ava-l">GOOGLE PODCAST</a> */}
+        <span><a href="#" class="ava-l2"><img src={footer1} alt="" /></a>
+        <a href="#" class="ava-l2"><img src={footer2} alt="" /></a></span>
+    
+        <span><a href="#" class="ava-l2"><img src={footer3} alt="" /></a>
+        <a href="#" class="ava-l2"><img src={footer4} alt="" /></a></span>
       </div>
     </div>
   </div>
