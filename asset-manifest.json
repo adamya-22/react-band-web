@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-band-web/static/css/main.3dd631ec.css",
-    "main.js": "/react-band-web/static/js/main.e6da1622.js",
+    "main.css": "/react-band-web/static/css/main.f0284517.css",
+    "main.js": "/react-band-web/static/js/main.de5675f5.js",
     "static/media/moving.gif": "/react-band-web/static/media/moving.42d6a3e6dc0dad04dcb2.gif",
     "static/media/blog1.jpg": "/react-band-web/static/media/blog1.d45b40f8ff071f3b75bb.jpg",
     "static/media/member2.jpg": "/react-band-web/static/media/member2.64e24740f42e819dd354.jpg",
@@ -27,18 +27,22 @@
     "static/media/facebook.png": "/react-band-web/static/media/facebook.3f70b3be5011c30f6eab.png",
     "static/media/award.jpeg": "/react-band-web/static/media/award.e69511deb4e58160d53b.jpeg",
     "static/media/yt.png": "/react-band-web/static/media/yt.4db494fc10cb71fb2042.png",
+    "static/media/footer_img3.jpg": "/react-band-web/static/media/footer_img3.b2981106e8a44b4e1930.jpg",
     "static/media/bg2.jpg": "/react-band-web/static/media/bg2.6d1b2c80cada0d189714.jpg",
     "static/media/ball.png": "/react-band-web/static/media/ball.4ec134f34c30296b85d0.png",
+    "static/media/footer_img2.jpg": "/react-band-web/static/media/footer_img2.8a9cef5a99891072a96e.jpg",
+    "static/media/footer_img1.jpg": "/react-band-web/static/media/footer_img1.bbbed5c64e5a92db8c49.jpg",
     "static/media/sunrise.webp": "/react-band-web/static/media/sunrise.0e78e146deb7e6ad7c48.webp",
     "static/media/footer.webp": "/react-band-web/static/media/footer.f0847c44d41d1a15bf22.webp",
     "static/media/logo.webp": "/react-band-web/static/media/logo.fdef4782a83a24d1ca1b.webp",
+    "static/media/footer_img4.jpg": "/react-band-web/static/media/footer_img4.29a60475f852e176ec5b.jpg",
     "static/media/plane.webp": "/react-band-web/static/media/plane.53a359ce826b75909f51.webp",
     "index.html": "/react-band-web/index.html",
-    "main.3dd631ec.css.map": "/react-band-web/static/css/main.3dd631ec.css.map",
-    "main.e6da1622.js.map": "/react-band-web/static/js/main.e6da1622.js.map"
+    "main.f0284517.css.map": "/react-band-web/static/css/main.f0284517.css.map",
+    "main.de5675f5.js.map": "/react-band-web/static/js/main.de5675f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.3dd631ec.css",
-    "static/js/main.e6da1622.js"
+    "static/css/main.f0284517.css",
+    "static/js/main.de5675f5.js"
   ]
 }
