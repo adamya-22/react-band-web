@@ -54,7 +54,7 @@ const Footer = () => {
   </div>
 </footer>
 <div class="foo-bel">
-  <p>Copyright &copy; 2022 - <a href="https://wictronix.com/"><b>WictroniX</b></a>. All rights reserved</p>
+  <p>Copyright &copy; 2023 - <a href="https://wictronix.com/"><b>WictroniX</b></a>. All rights reserved</p>
 </div>
     </>
   )
