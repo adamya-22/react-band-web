@@ -269,7 +269,7 @@
     filter: none;
   }
   p {
-    margin: 0;
+    margin: 5px 0;
   }
   .scroll-info {
     display: flex;

@@ -1,9 +1,9 @@
 import React from 'react'
 import '../styles/style.css'
-import footer1 from '../assets/footer_img1.jpg'
-import footer2 from '../assets/footer_img2.jpg'
-import footer3 from '../assets/footer_img3.jpg'
-import footer4 from '../assets/footer_img4.jpg'
+import footer1 from '../assets/footer_img1.png'
+import footer2 from '../assets/footer_img2.png'
+import footer3 from '../assets/footer_img3.png'
+import footer4 from '../assets/footer_img4.png'
 
 const Footer = () => {
   return (
@@ -54,7 +54,7 @@ const Footer = () => {
   </div>
 </footer>
 <div class="foo-bel">
-  <p>Published by WictroniX&copy;</p>
+  <p>Copyright &copy; 2022 - <a href="https://wictronix.com/"><b>WictroniX</b></a>. All rights reserved</p>
 </div>
     </>
   )

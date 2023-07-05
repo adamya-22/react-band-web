@@ -3,7 +3,7 @@ import {NavLink} from 'react-router-dom'
 
 import '../styles/navbar.css'
 import '../styles/parallax.css'
-import '../styles/parallax2.css'
+// import '../styles/parallax2.css'
 import '../styles/slider.css'
 import '../styles/style.css'
 import '../additional/slider'
@@ -144,13 +144,13 @@ const Home = () => {
 {/* parallax  */}
 {/* </div> */}
 <div className="par">
-  <div className="wrapper">
+  {/* <div className="wrapper">
     <div className="parallax__group hero-container">
       <div className="parallax__layer bushes"></div>
       <div className="parallax__layer water"></div>
       <div className="parallax__layer people1"></div>
       </div>
-  </div>
+  </div> */}
 
 
 {/* slider 2  */}
