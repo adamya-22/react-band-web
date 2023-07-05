@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-band-web/static/css/main.aef8779a.css",
-    "main.js": "/react-band-web/static/js/main.ee7a990d.js",
+    "main.js": "/react-band-web/static/js/main.456f1b9c.js",
     "static/media/moving.gif": "/react-band-web/static/media/moving.42d6a3e6dc0dad04dcb2.gif",
     "static/media/blog1.jpg": "/react-band-web/static/media/blog1.d45b40f8ff071f3b75bb.jpg",
     "static/media/member2.jpg": "/react-band-web/static/media/member2.64e24740f42e819dd354.jpg",
@@ -36,10 +36,10 @@
     "static/media/plane.webp": "/react-band-web/static/media/plane.53a359ce826b75909f51.webp",
     "index.html": "/react-band-web/index.html",
     "main.aef8779a.css.map": "/react-band-web/static/css/main.aef8779a.css.map",
-    "main.ee7a990d.js.map": "/react-band-web/static/js/main.ee7a990d.js.map"
+    "main.456f1b9c.js.map": "/react-band-web/static/js/main.456f1b9c.js.map"
   },
   "entrypoints": [
     "static/css/main.aef8779a.css",
-    "static/js/main.ee7a990d.js"
+    "static/js/main.456f1b9c.js"
   ]
 }
